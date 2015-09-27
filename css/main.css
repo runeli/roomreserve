@@ -1,0 +1,45 @@
+body {
+  font-family: 'Montserrat';
+  color: #fff;
+  display: table;
+}
+.main-wrapper {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.availablecolor {
+  background-color: #007160;
+}
+.occupiedcolor {
+  background-color: #c60d18;
+}
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.main-button {
+  height: 140px;
+  font-size: 4em;
+}
+button:focus {
+  outline: 0 !important;
+}
+.occupiedcolor .btn-reserve {
+  color: #fff;
+  background-color: #179c88;
+  border: none;
+  border-bottom: 10px solid #076355;
+  border-radius: 10px;
+}
+.btn-reserve {
+  color: #fff;
+  background-color: #ff5252;
+  border: none;
+  border-bottom: 10px solid #880f0f;
+  border-radius: 10px;
+}
